@@ -1,5 +1,6 @@
 ---
-- hosts: ubuntu-servers
+- hosts: all
+
   become: true
   tasks:
   - name: UFW - Allow SSH connections
